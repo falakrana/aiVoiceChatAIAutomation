@@ -30,11 +30,8 @@ Full-stack demo: React + Tailwind front-end, Flask back-end, MongoDB Atlas, APSc
 1) Create a virtual environment and install deps:
 
 ```bash
-cd backend
-python -m venv .venv
-# Windows PowerShell
-. .venv/Scripts/Activate.ps1
-pip install -r requirements.txt
+conda create -p venv python==<version_name>
+pip install -r ./backend/requirements.txt/
 ```
 
 2) Configure environment variables:
