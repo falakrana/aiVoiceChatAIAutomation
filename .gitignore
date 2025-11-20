@@ -1,0 +1,4 @@
+/automatedEnv/
+
+/backend/.env
+/frontend/node_modules/
